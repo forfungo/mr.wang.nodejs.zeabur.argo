@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-NEZHA_SERVER=${NEZHA_SERVER:-'nz.f4i.cn'}
-NEZHA_PORT=${NEZHA_PORT:-'5555'}
-NEZHA_KEY=${NEZHA_KEY:-'481qupd9Zwj4H2eSXc'}
+NEZHA_SERVER=${NEZHA_SERVER:-''}
+NEZHA_PORT=${NEZHA_PORT:-''}
+NEZHA_KEY=${NEZHA_KEY:-''}
 TLS=${TLS:-''}
-ARGO_DOMAIN=${ARGO_DOMAIN:-''}
-ARGO_AUTH=${ARGO_AUTH:-''}
+ARGO_DOMAIN=${ARGO_DOMAIN:-'doprax.zentao.cf'}
+ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"2321b1a9c3ea8af971b122908da6ffd6","TunnelSecret":"km1olfX7lKOVHlsPzstCcIFTg1M+xFRHsaUkxaamkR4=","TunnelID":"72704c40-9db9-4c96-8567-96594cfd06d1"}'}
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'c1824acf-01ea-4cb0-0941-0d6aa0acbe9b'}
+UUID=${UUID:-'95dd5820-9302-4398-8209-1c4b745b6b29'}
 
 if [ "$TLS" -eq 0 ]; then
   NEZHA_TLS=''
